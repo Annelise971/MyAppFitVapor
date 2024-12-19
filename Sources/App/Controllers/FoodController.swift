@@ -11,6 +11,5 @@ struct FoodController: RouteCollection {
     func boot(routes: any Vapor.RoutesBuilder) throws {
         let food = routes.grouped("food")
     }
-    
-    
 }
+
